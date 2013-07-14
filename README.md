@@ -1,4 +1,4 @@
 Android-Guide
 =============
 
-<h3>Android Guide</h3>
+Questo repository contiene tutte le guide e i tutorial su Android presenti sul sito www.likeadrop.com
