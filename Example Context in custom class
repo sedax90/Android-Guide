@@ -1,0 +1,40 @@
+package com.example.likeadrop;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+/**
+ * Created by Cristian on 21/07/13.
+ */
+public class Articolo_del_blog {
+    private int nid;
+    private int category;
+    private int created;
+    private  String body;
+
+    private Context context;
+
+    public Articolo_del_blog(Context context){
+        this.context = context;
+    }
+
+    private DatabaseBlog databaseBlog;
+
+    public boolean blogExistsYet(int nid){
+        databaseBlog = new DatabaseBlog(this.context);
+        SQLiteDatabase db = databaseBlog.getReadableDatabase();
+
+        String[] columns = {"_id", "nid"};
+        String selection = "nid = ?";
+        String selectionArgs[] = {Integer.toString(nid)};
+
+        Cursor cursor = db.query("articoli_del_blog", columns, selection, selectionArgs, null, null, null);
+        if(cursor.getCount() > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
