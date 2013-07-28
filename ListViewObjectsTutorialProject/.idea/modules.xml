@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ListViewObjectsTutorial/ListViewObjectsTutorial.iml" filepath="$PROJECT_DIR$/ListViewObjectsTutorial/ListViewObjectsTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewObjectsTutorialProject.iml" filepath="$PROJECT_DIR$/ListViewObjectsTutorialProject.iml" />
+    </modules>
+  </component>
+</project>
+
