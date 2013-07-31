@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DownloadImageFromUrlTutorial/DownloadImageFromUrlTutorial.iml" filepath="$PROJECT_DIR$/DownloadImageFromUrlTutorial/DownloadImageFromUrlTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DownloadImageFromUrlTutorialProject.iml" filepath="$PROJECT_DIR$/DownloadImageFromUrlTutorialProject.iml" />
+    </modules>
+  </component>
+</project>
+
